@@ -3,7 +3,9 @@ package com.pm.patientservice.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
+import jdk.jshell.Snippet;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,6 +16,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Builder
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,6 +27,8 @@ public class Patient {
     @Email
     @Column(unique = true)
     private String email;
+    @NotNull
+    private String address;
     @NotNull
     private LocalDate dateOfBirth;
     @NotNull
