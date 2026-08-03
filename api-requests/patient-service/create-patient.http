@@ -1,13 +1,12 @@
-### creat patients
-POST https://localhost:3000/patients
-content-type: application/json
+### create patients
+POST http://localhost:4000/patients
+Content-Type: application/json
+
 {
-     "name": "hema",
-     "email": "hema@gmail.com",
-     "address": "11 overlea",
-     "dateOfBirth": "1996-09-20",
-    "registeredDate": "2026-09-20"
+  "name": "hema",
+  "email": "hema@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
 }
-
-
 ###
