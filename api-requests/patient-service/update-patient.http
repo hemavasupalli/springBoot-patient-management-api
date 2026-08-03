@@ -1,0 +1,12 @@
+### updates patient information
+PUT https://localhost:3000/patients/123e4567-e89b-12d3-a456-426614174000
+content-type: application/json
+{
+     "name": "Jane Smith",
+     "email": "jane.smith@example.com",
+     "address": "456 Elm St, Shelbyville",
+     "dateOfBirth": "1990-09-23",
+    "registeredDate": "2023-12-01"
+}
+
+
