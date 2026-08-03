@@ -1,4 +1,3 @@
 ### GET patients
-GET https://localhost:3000/patients
-
+GET http://localhost:4000/patients
 ###
