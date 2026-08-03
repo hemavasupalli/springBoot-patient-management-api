@@ -1,0 +1,412 @@
+Index: .idea/httpRequests/2026-08-03T175057.201.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175057.201.json b/.idea/httpRequests/2026-08-03T175057.201.json
+new file mode 100644
+--- /dev/null	(date 1785793858169)
++++ b/.idea/httpRequests/2026-08-03T175057.201.json	(date 1785793858169)
+@@ -0,0 +1,7 @@
++{
++  "id": "8f882639-3921-479b-bef9-911e22d85a7f",
++  "name": "hema billijg",
++  "email": "hemabill@gmail.com",
++  "address": "11 overlea",
++  "dateOfBirth": "1996-09-20"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175124.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175124.OK.json b/.idea/httpRequests/2026-08-03T175124.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793884453)
++++ b/.idea/httpRequests/2026-08-03T175124.OK.json	(date 1785793884453)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175135.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175135.OK.json b/.idea/httpRequests/2026-08-03T175135.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793895559)
++++ b/.idea/httpRequests/2026-08-03T175135.OK.json	(date 1785793895559)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175146.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175146.OK.json b/.idea/httpRequests/2026-08-03T175146.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793906866)
++++ b/.idea/httpRequests/2026-08-03T175146.OK.json	(date 1785793906866)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175214.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175214.400.json b/.idea/httpRequests/2026-08-03T175214.400.json
+new file mode 100644
+--- /dev/null	(date 1785793934428)
++++ b/.idea/httpRequests/2026-08-03T175214.400.json	(date 1785793934428)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175217.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175217.OK.json b/.idea/httpRequests/2026-08-03T175217.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793937751)
++++ b/.idea/httpRequests/2026-08-03T175217.OK.json	(date 1785793937751)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175304.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175304.OK.json b/.idea/httpRequests/2026-08-03T175304.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793984461)
++++ b/.idea/httpRequests/2026-08-03T175304.OK.json	(date 1785793984461)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/http-client.cookies
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/http-client.cookies b/.idea/httpRequests/http-client.cookies
+new file mode 100644
+--- /dev/null	(date 1785793883396)
++++ b/.idea/httpRequests/http-client.cookies	(date 1785793883396)
+@@ -0,0 +1,1 @@
++# domain	path	name	value	date
+Index: .idea/httpRequests/2026-08-03T175605.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175605.OK.json b/.idea/httpRequests/2026-08-03T175605.OK.json
+new file mode 100644
+--- /dev/null	(date 1785794165779)
++++ b/.idea/httpRequests/2026-08-03T175605.OK.json	(date 1785794165779)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T180442.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T180442.OK.json b/.idea/httpRequests/2026-08-03T180442.OK.json
+new file mode 100644
+--- /dev/null	(date 1785794682322)
++++ b/.idea/httpRequests/2026-08-03T180442.OK.json	(date 1785794682322)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T180507.500.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T180507.500.json b/.idea/httpRequests/2026-08-03T180507.500.json
+new file mode 100644
+--- /dev/null	(date 1785794707854)
++++ b/.idea/httpRequests/2026-08-03T180507.500.json	(date 1785794707854)
+@@ -0,0 +1,6 @@
++{
++  "timestamp": "2026-08-03T22:05:07.678+00:00",
++  "status": 500,
++  "error": "Internal Server Error",
++  "path": "/patients"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T180521.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T180521.400.json b/.idea/httpRequests/2026-08-03T180521.400.json
+new file mode 100644
+--- /dev/null	(date 1785794721273)
++++ b/.idea/httpRequests/2026-08-03T180521.400.json	(date 1785794721273)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T180525.500.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T180525.500.json b/.idea/httpRequests/2026-08-03T180525.500.json
+new file mode 100644
+--- /dev/null	(date 1785794726017)
++++ b/.idea/httpRequests/2026-08-03T180525.500.json	(date 1785794726017)
+@@ -0,0 +1,6 @@
++{
++  "timestamp": "2026-08-03T22:05:25.981+00:00",
++  "status": 500,
++  "error": "Internal Server Error",
++  "path": "/patients"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T180628.500.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T180628.500.json b/.idea/httpRequests/2026-08-03T180628.500.json
+new file mode 100644
+--- /dev/null	(date 1785794788225)
++++ b/.idea/httpRequests/2026-08-03T180628.500.json	(date 1785794788225)
+@@ -0,0 +1,6 @@
++{
++  "timestamp": "2026-08-03T22:06:28.149+00:00",
++  "status": 500,
++  "error": "Internal Server Error",
++  "path": "/patients"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175305.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175305.400.json b/.idea/httpRequests/2026-08-03T175305.400.json
+new file mode 100644
+--- /dev/null	(date 1785793985725)
++++ b/.idea/httpRequests/2026-08-03T175305.400.json	(date 1785793985725)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175307.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175307.400.json b/.idea/httpRequests/2026-08-03T175307.400.json
+new file mode 100644
+--- /dev/null	(date 1785793987867)
++++ b/.idea/httpRequests/2026-08-03T175307.400.json	(date 1785793987867)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175309.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175309.OK.json b/.idea/httpRequests/2026-08-03T175309.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793989608)
++++ b/.idea/httpRequests/2026-08-03T175309.OK.json	(date 1785793989608)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175311.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175311.400.json b/.idea/httpRequests/2026-08-03T175311.400.json
+new file mode 100644
+--- /dev/null	(date 1785793991230)
++++ b/.idea/httpRequests/2026-08-03T175311.400.json	(date 1785793991230)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T175313.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175313.OK.json b/.idea/httpRequests/2026-08-03T175313.OK.json
+new file mode 100644
+--- /dev/null	(date 1785793993605)
++++ b/.idea/httpRequests/2026-08-03T175313.OK.json	(date 1785793993605)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175418.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175418.OK.json b/.idea/httpRequests/2026-08-03T175418.OK.json
+new file mode 100644
+--- /dev/null	(date 1785794058078)
++++ b/.idea/httpRequests/2026-08-03T175418.OK.json	(date 1785794058078)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175423.OK.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175423.OK.json b/.idea/httpRequests/2026-08-03T175423.OK.json
+new file mode 100644
+--- /dev/null	(date 1785794063842)
++++ b/.idea/httpRequests/2026-08-03T175423.OK.json	(date 1785794063842)
+@@ -0,0 +1,4 @@
++{
++  "accountId": "1234",
++  "status": "ACTIVE"
++}
+Index: .idea/httpRequests/2026-08-03T175604.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T175604.400.json b/.idea/httpRequests/2026-08-03T175604.400.json
+new file mode 100644
+--- /dev/null	(date 1785794164104)
++++ b/.idea/httpRequests/2026-08-03T175604.400.json	(date 1785794164104)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T181347.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T181347.400.json b/.idea/httpRequests/2026-08-03T181347.400.json
+new file mode 100644
+--- /dev/null	(date 1785795228051)
++++ b/.idea/httpRequests/2026-08-03T181347.400.json	(date 1785795228051)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T181357.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T181357.400.json b/.idea/httpRequests/2026-08-03T181357.400.json
+new file mode 100644
+--- /dev/null	(date 1785795237955)
++++ b/.idea/httpRequests/2026-08-03T181357.400.json	(date 1785795237955)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T181404.500.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T181404.500.json b/.idea/httpRequests/2026-08-03T181404.500.json
+new file mode 100644
+--- /dev/null	(date 1785795244226)
++++ b/.idea/httpRequests/2026-08-03T181404.500.json	(date 1785795244226)
+@@ -0,0 +1,6 @@
++{
++  "timestamp": "2026-08-03T22:14:04.157+00:00",
++  "status": 500,
++  "error": "Internal Server Error",
++  "path": "/patients"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T182314.500.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T182314.500.json b/.idea/httpRequests/2026-08-03T182314.500.json
+new file mode 100644
+--- /dev/null	(date 1785795794151)
++++ b/.idea/httpRequests/2026-08-03T182314.500.json	(date 1785795794151)
+@@ -0,0 +1,6 @@
++{
++  "timestamp": "2026-08-03T22:23:14.052+00:00",
++  "status": 500,
++  "error": "Internal Server Error",
++  "path": "/patients"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T182548.400.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T182548.400.json b/.idea/httpRequests/2026-08-03T182548.400.json
+new file mode 100644
+--- /dev/null	(date 1785795948161)
++++ b/.idea/httpRequests/2026-08-03T182548.400.json	(date 1785795948161)
+@@ -0,0 +1,3 @@
++{
++  "message": "Email already exists"
++}
+\ No newline at end of file
+Index: .idea/httpRequests/2026-08-03T182553.201.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/httpRequests/2026-08-03T182553.201.json b/.idea/httpRequests/2026-08-03T182553.201.json
+new file mode 100644
+--- /dev/null	(date 1785795953540)
++++ b/.idea/httpRequests/2026-08-03T182553.201.json	(date 1785795953540)
+@@ -0,0 +1,7 @@
++{
++  "id": "02e847be-3da4-4272-a550-e0526964491d",
++  "name": "sailu",
++  "email": "sailu1@gmail.com",
++  "address": "11 overlea",
++  "dateOfBirth": "1996-09-20"
++}
+\ No newline at end of file
