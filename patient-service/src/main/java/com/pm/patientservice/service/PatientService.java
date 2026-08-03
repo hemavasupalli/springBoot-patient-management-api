@@ -1,13 +1,18 @@
 package com.pm.patientservice.service;
 
+import billing.BillingResponse;
 import com.pm.patientservice.dto.PatientRequestDTO;
 import com.pm.patientservice.dto.PatientResponseDTO;
 import com.pm.patientservice.exception.EmailAlreadyExistsException;
 import com.pm.patientservice.exception.PatientNotFoundException;
+import com.pm.patientservice.grpc.BillingServiceGrpcClient;
 import com.pm.patientservice.mapper.PatientMapper;
 import com.pm.patientservice.model.Patient;
 import com.pm.patientservice.repository.PatientRepository;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -15,11 +20,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Slf4j
 @Service
-@AllArgsConstructor
 public class PatientService {
-
-    private final PatientRepository patientRepository;
+    @Autowired
+    private  PatientRepository patientRepository;
+    @Autowired
+    private  BillingServiceGrpcClient billingServiceGrpcClient;
 
     public List<PatientResponseDTO> getPatients(){
         List<Patient> patients = patientRepository.findAll();
@@ -35,6 +42,8 @@ public class PatientService {
 
         }
         Patient newpatient = patientRepository.save(PatientMapper.toModel(patientRequestDTO));
+        BillingResponse responseBuilder = billingServiceGrpcClient.createBillingAccount(newpatient.getId().toString(), newpatient.getName(), newpatient.getEmail());
+        log.info("Billing account created for patient {}: {}", newpatient.getId(), responseBuilder.toString());
         return PatientMapper.toDTO(newpatient);
     }
 

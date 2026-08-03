@@ -1,1 +1,305 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "sailu",
+  "email": "sailu1@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T182553.201.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "sailu",
+  "email": "sailu@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T182548.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "sailu",
+  "email": "sailu@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T182314.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "anil",
+  "email": "anil5@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T181404.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 141
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "anil",
+  "email": "anil@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T181357.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 141
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "anil",
+  "email": "anil@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T181347.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 141
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "anil",
+  "email": "anil@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T180628.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 157
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema beeillijg",
+  "email": "hemae3bill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T180525.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema beeillijg",
+  "email": "hema3bill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T180521.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 154
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hema3bill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T180507.500.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175604.400.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175311.400.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175307.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175305.400.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175214.400.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "hema billijg",
+  "email": "hemabill@gmail.com",
+  "address": "11 overlea",
+  "dateOfBirth": "1996-09-20",
+  "registeredDate": "2026-09-20"
+}
+
+<> 2026-08-03T175057.201.json
+
+###
+
 GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccount

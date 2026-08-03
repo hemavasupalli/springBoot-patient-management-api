@@ -12,6 +12,8 @@ import jakarta.validation.groups.Default;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -23,11 +25,10 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/patients")
 @AllArgsConstructor
-@Data
 @Tag(name="Patient Management", description="Operations related to patient management")
 public class PatientController {
-
-    private final PatientService patientService;
+    @Autowired
+    private  PatientService patientService;
 
 
     @GetMapping
