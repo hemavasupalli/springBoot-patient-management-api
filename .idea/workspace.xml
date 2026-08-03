@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61a25c6-161c-469a-ae03-7bfdad701f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/patient-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="e61a25c6-161c-469a-ae03-7bfdad701f47" name="Changes" comment="add docker">
+      <change afterPath="$PROJECT_DIR$/billing-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingService/grpc/BillingGrpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/proto/billing-service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/delete-patients.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/delete-patients.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/src/main/java/com/pm/billingServices/BillingServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingService/BillingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-services/src/test/java/com/pm/billingServices/BillingServicesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/src/test/java/com/pm/billingService/BillingServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +34,38 @@
       <entry key="_/Users/hemavasupalli/Desktop/patient-management" value="3HPw5NX1XAc7AhP07iKuqXULPjW" />
     </persistenceIdMap>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTTP Request" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hemavasupalli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hemavasupalli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hemavasupalli/springBoot-patient-management-api.git",
-    "accountId": "c06982aa-3ea0-4aa9-9b66-d5fdacbc5fd0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hemavasupalli/springBoot-patient-management-api.git&quot;,
+    &quot;accountId&quot;: &quot;c06982aa-3ea0-4aa9-9b66-d5fdacbc5fd0&quot;
   }
+}</component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
 }]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -69,62 +80,62 @@
       <entry key="S2" value="1.0" />
       <entry key="S5" value="1.0" />
       <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0000000000001241" />
-      <entry key="M2" value="1.0000003793418704" />
-      <entry key="M5" value="1.003946091359964" />
-      <entry key="M10" value="1.1018628410537559" />
-      <entry key="M15" value="1.30976514779595" />
-      <entry key="M30" value="1.9565690715977846" />
-      <entry key="H1" value="2.6907589429220007" />
-      <entry key="H2" value="3.2510914313568486" />
-      <entry key="H4" value="3.5983955327297594" />
-      <entry key="D1" value="3.9289461725090593" />
-      <entry key="W1" value="3.989743670636559" />
+      <entry key="S30" value="1.0000042854456208" />
+      <entry key="S60" value="1.0034127850867425" />
+      <entry key="M2" value="1.1423159847824542" />
+      <entry key="M5" value="3.0635495315205445" />
+      <entry key="M10" value="7.4594919608543" />
+      <entry key="M15" value="11.135946784205958" />
+      <entry key="M30" value="17.91316413445353" />
+      <entry key="H1" value="23.716116652352103" />
+      <entry key="H2" value="27.755941694532925" />
+      <entry key="H4" value="30.19694764286792" />
+      <entry key="D1" value="32.50443366346437" />
+      <entry key="W1" value="32.92846168282604" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.9467980856397068E-155" />
-      <entry key="S10" value="6.233338778356285E-78" />
-      <entry key="S30" value="2.9207690722751663E-26" />
-      <entry key="S60" value="2.423813682239764E-13" />
-      <entry key="M2" value="7.350282380715627E-7" />
-      <entry key="M5" value="0.007260291498130506" />
-      <entry key="M10" value="0.17996331021045608" />
-      <entry key="M15" value="0.5378412810128678" />
-      <entry key="M30" value="1.628917192899835" />
-      <entry key="H1" value="2.849106111967685" />
-      <entry key="H2" value="3.772755227541216" />
-      <entry key="H4" value="4.342794446045443" />
-      <entry key="D1" value="4.883864866678474" />
-      <entry key="W1" value="4.983239947846558" />
+      <entry key="S2" value="1.0105241362733972E-82" />
+      <entry key="S5" value="1.591549276740247E-33" />
+      <entry key="S10" value="3.99661245297757E-17" />
+      <entry key="S30" value="3.833877374620696E-6" />
+      <entry key="S60" value="0.0025482741137193682" />
+      <entry key="M2" value="0.08244652556373584" />
+      <entry key="M5" value="1.191046003783825" />
+      <entry key="M10" value="4.376633722816743" />
+      <entry key="M15" value="7.29671568885207" />
+      <entry key="M30" value="12.934059104535443" />
+      <entry key="H1" value="18.061425736096577" />
+      <entry key="H2" value="21.836228644132166" />
+      <entry key="H4" value="24.203220760977604" />
+      <entry key="D1" value="26.49954375374279" />
+      <entry key="W1" value="26.927599036686914" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9075191553171609" />
-      <entry key="MS500" value="0.9807790039885513" />
-      <entry key="S2" value="0.9951597218200828" />
-      <entry key="S5" value="0.9980610700524115" />
-      <entry key="S10" value="0.9990300646389034" />
-      <entry key="S30" value="0.9996765836260931" />
-      <entry key="S60" value="0.9998382787365272" />
-      <entry key="M2" value="0.9999202465208559" />
-      <entry key="M5" value="1.0111460105623784" />
-      <entry key="M10" value="1.2813507487490965" />
-      <entry key="M15" value="1.8465953541264295" />
-      <entry key="M30" value="3.5838328416253273" />
-      <entry key="H1" value="5.538362343880649" />
-      <entry key="H2" value="7.022832737899948" />
-      <entry key="H4" value="7.940600943936754" />
-      <entry key="D1" value="8.812699779623081" />
-      <entry key="W1" value="8.972967379465125" />
+      <entry key="MS100" value="2.8871388144702026E-5" />
+      <entry key="MS500" value="0.12362136454761642" />
+      <entry key="S2" value="0.5929572497054739" />
+      <entry key="S5" value="0.8113520789569888" />
+      <entry key="S10" value="0.9007508417742327" />
+      <entry key="S30" value="0.9657657810381199" />
+      <entry key="S60" value="0.9886461799204344" />
+      <entry key="M2" value="1.2153311178899457" />
+      <entry key="M5" value="4.243467899563762" />
+      <entry key="M10" value="11.814752422939675" />
+      <entry key="M15" value="18.407450377898737" />
+      <entry key="M30" value="30.823615506953963" />
+      <entry key="H1" value="41.76083594014576" />
+      <entry key="H2" value="49.58208341429038" />
+      <entry key="H4" value="54.39459706554072" />
+      <entry key="D1" value="59.002965276302255" />
+      <entry key="W1" value="59.85591392776417" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3HPw57b4x8F3Q1EYOPS4y6AVVMs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -132,13 +143,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.biiling-service.executor": "Run",
     "Docker.patient-service-db.executor": "Run",
     "Docker.patient-service.executor": "Run",
+    "HTTP Request.create-billing-account | #1.executor": "Run",
+    "HTTP Request.create-billing-account | Create Billing Account.executor": "Run",
+    "Maven.billingServices [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BillingServiceApplication.executor": "Run",
     "Spring Boot.PatientServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -160,10 +180,29 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.patient-service">
-    <configuration name="BillingServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="create-billing-account | Create Billing Account" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.biiling-service">
+    <configuration name="create-billing-account | Create Billing Account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" executionIdentifier="Create Billing Account" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="create-billing-account | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="billingServices" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.billingServices.BillingServicesApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.billingService.BillingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,6 +214,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="biiling-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="biiling-service:latest" />
+          <option name="containerName" value="biiling-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4001" />
+                <option name="hostPort" value="4001" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9001" />
+                <option name="hostPort" value="9001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="billing-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="patient-service-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
@@ -262,11 +324,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.biiling-service" />
       <item itemvalue="Docker.patient-service-db" />
       <item itemvalue="Docker.patient-service" />
-      <item itemvalue="Spring Boot.BillingServicesApplication" />
+      <item itemvalue="HTTP Request.create-billing-account | #1" />
+      <item itemvalue="HTTP Request.create-billing-account | Create Billing Account" />
+      <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.create-billing-account | Create Billing Account" />
+        <item itemvalue="HTTP Request.create-billing-account | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -283,11 +354,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785782827368</updated>
-      <workItem from="1785782829549" duration="2193000" />
+      <workItem from="1785782829549" duration="5340000" />
     </task>
+    <task id="LOCAL-00001" summary="add docker">
+      <option name="closed" value="true" />
+      <created>1785786988205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785786988205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add docker">
+      <option name="closed" value="true" />
+      <created>1785786993189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785786993189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docker" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingService/grpc/BillingGrpcService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
