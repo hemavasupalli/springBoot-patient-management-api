@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61a25c6-161c-469a-ae03-7bfdad701f47" name="Changes" comment="add docker">
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/grpc/BillingServiceGrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/kafka/kafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/proto/billing-service.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e61a25c6-161c-469a-ae03-7bfdad701f47" name="Changes" comment="added grpc">
+      <change afterPath="$PROJECT_DIR$/patient-service/src/main/proto/patient_event.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/mapper/PatientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/mapper/PatientMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/kafka/kafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/kafka/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/service/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,61 +73,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0106721895058957" />
-      <entry key="MS500" value="1.405307919059464" />
-      <entry key="S2" value="2.1717688969570412" />
-      <entry key="S5" value="3.184283273476955" />
-      <entry key="S10" value="4.078814053013621" />
-      <entry key="S30" value="5.254761535529832" />
-      <entry key="S60" value="5.965872251997629" />
-      <entry key="M2" value="6.676530581587487" />
-      <entry key="M5" value="7.465534841517051" />
-      <entry key="M10" value="8.714262019012173" />
-      <entry key="M15" value="10.474465521719338" />
-      <entry key="M30" value="16.552518729191668" />
-      <entry key="H1" value="27.47817784507088" />
-      <entry key="H2" value="41.290707243819085" />
-      <entry key="H4" value="53.43349830662171" />
-      <entry key="D1" value="68.3119328623445" />
-      <entry key="W1" value="71.4561269346475" />
+      <entry key="MS100" value="1.2239728815382827" />
+      <entry key="MS500" value="2.034337533672125" />
+      <entry key="S2" value="3.1583724633347923" />
+      <entry key="S5" value="3.616585324309211" />
+      <entry key="S10" value="3.79943551545508" />
+      <entry key="S30" value="3.937544603375564" />
+      <entry key="S60" value="4.153241904155386" />
+      <entry key="M2" value="5.349807263101361" />
+      <entry key="M5" value="10.98886126263921" />
+      <entry key="M10" value="19.537574948161012" />
+      <entry key="M15" value="25.79089043055876" />
+      <entry key="M30" value="38.30373194495046" />
+      <entry key="H1" value="54.42880129616571" />
+      <entry key="H2" value="73.70819166361497" />
+      <entry key="H4" value="91.33795607780681" />
+      <entry key="D1" value="114.14167755508548" />
+      <entry key="W1" value="119.13104958241742" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.166835487204813E-10" />
-      <entry key="MS500" value="0.01388816689322766" />
-      <entry key="S2" value="0.3432900624687233" />
-      <entry key="S5" value="0.6520253676292801" />
-      <entry key="S10" value="0.8074808775626083" />
-      <entry key="S30" value="0.9312023903351586" />
-      <entry key="S60" value="0.9649882876076398" />
-      <entry key="M2" value="0.9824146316469824" />
-      <entry key="M5" value="1.0397516520106649" />
-      <entry key="M10" value="1.5098380746747473" />
-      <entry key="M15" value="2.2872454784839467" />
-      <entry key="M30" value="5.345107152767017" />
-      <entry key="H1" value="12.398671985884945" />
-      <entry key="H2" value="22.754370479134955" />
-      <entry key="H4" value="32.48624821952889" />
-      <entry key="D1" value="44.87203182604849" />
-      <entry key="W1" value="47.53748353185576" />
+      <entry key="MS100" value="9.1704E-320" />
+      <entry key="MS500" value="1.5576791223806437E-64" />
+      <entry key="S2" value="1.1171706043564302E-16" />
+      <entry key="S5" value="4.16147988866829E-7" />
+      <entry key="S10" value="6.451231326414595E-4" />
+      <entry key="S30" value="0.09696026873032602" />
+      <entry key="S60" value="0.5802837451547543" />
+      <entry key="M2" value="2.13006792224473" />
+      <entry key="M5" value="6.73616064659573" />
+      <entry key="M10" value="12.403217926997678" />
+      <entry key="M15" value="16.01631617238911" />
+      <entry key="M30" value="22.2903265361015" />
+      <entry key="H1" value="30.62191258980656" />
+      <entry key="H2" value="42.49654595811058" />
+      <entry key="H4" value="54.659654916433254" />
+      <entry key="D1" value="71.52072242596711" />
+      <entry key="W1" value="75.33239936135533" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.016634086897621327" />
-      <entry key="MS500" value="0.7598945726191098" />
-      <entry key="S2" value="2.1366911546275302" />
-      <entry key="S5" value="3.5378629388148903" />
-      <entry key="S10" value="4.659783959196515" />
-      <entry key="S30" value="6.077501329180892" />
-      <entry key="S60" value="6.87075762404896" />
-      <entry key="M2" value="7.62722583270975" />
-      <entry key="M5" value="8.491658803074941" />
-      <entry key="M10" value="10.215108473069304" />
-      <entry key="M15" value="12.753525095255851" />
-      <entry key="M30" value="21.889433292213514" />
-      <entry key="H1" value="39.86780668309277" />
-      <entry key="H2" value="64.03669523958578" />
-      <entry key="H4" value="85.9136834262843" />
-      <entry key="D1" value="113.18255035035588" />
-      <entry key="W1" value="118.99339591159766" />
+      <entry key="MS100" value="0.9218883236240893" />
+      <entry key="MS500" value="1.8793364347429575" />
+      <entry key="S2" value="3.0728904459458186" />
+      <entry key="S5" value="3.5738969944806365" />
+      <entry key="S10" value="3.7769509009301108" />
+      <entry key="S30" value="4.022964716689919" />
+      <entry key="S60" value="4.7064284248432156" />
+      <entry key="M2" value="7.415264190648865" />
+      <entry key="M5" value="17.629788935546284" />
+      <entry key="M10" value="31.853473459485713" />
+      <entry key="M15" value="41.73297007094819" />
+      <entry key="M30" value="60.54410141186583" />
+      <entry key="H1" value="85.01855915073462" />
+      <entry key="H2" value="116.18394017141412" />
+      <entry key="H4" value="145.98481843857448" />
+      <entry key="D1" value="185.6597132864287" />
+      <entry key="W1" value="194.4630471716608" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -208,7 +200,6 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="create-billing-account | Create Billing Account" value="STOPPED" />
               <entry key="create-patient | create patients" value="STOPPED" />
             </map>
           </value>
@@ -216,7 +207,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.kafka">
+  <component name="RunManager" selected="Docker.patient-service">
     <configuration name="create-billing-account | Create Billing Account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" executionIdentifier="Create Billing Account" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -395,6 +386,10 @@
                 <option name="name" value="SPRING_SQL_INIT_MODE" />
                 <option name="value" value="always" />
               </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_KAFKA_BOOTSTRAP_SERVERS" />
+                <option name="value" value="kafka:9092" />
+              </DockerEnvVarImpl>
             </list>
           </option>
           <option name="portBindings">
@@ -448,7 +443,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785782827368</updated>
-      <workItem from="1785782829549" duration="13756000" />
+      <workItem from="1785782829549" duration="15993000" />
     </task>
     <task id="LOCAL-00001" summary="add docker">
       <option name="closed" value="true" />
@@ -482,7 +477,31 @@
       <option name="project" value="LOCAL" />
       <updated>1785790163860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added grpc">
+      <option name="closed" value="true" />
+      <created>1785798710669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785798710669</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added grpc">
+      <option name="closed" value="true" />
+      <created>1785798831431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785798831431</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added grpc">
+      <option name="closed" value="true" />
+      <created>1785798841717</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1785798841717</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +509,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker" />
+    <MESSAGE value="added grpc" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grpc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
